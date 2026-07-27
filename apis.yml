@@ -1,9 +1,28 @@
 aid: guild-education
 name: Guild Education
-description: Guild Education is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Guild is an education benefits platform that helps large employers turn workforce education into
+  workforce strategy. Guild connects a company's frontline and hourly workers to a curated marketplace
+  of debt-free education, upskilling, and career-development programs delivered through vetted learning
+  partners (universities, bootcamps, and skilling providers), and pairs that access with coaching and
+  analytics so HR leaders can fill critical roles, improve retention, increase internal mobility, and
+  prove measurable ROI. Guild operates as a B2B2C platform: employers fund and administer the benefit,
+  learning partners supply the programs, and members (employees) enroll and progress toward degrees,
+  certificates, and new durable skills. Guild does not publish a public developer API, SDKs, or
+  developer portal; this profile captures its public company and web-property surface.
 url: https://raw.githubusercontent.com/api-evangelist/guild-education/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://a-us.storyblok.com/f/1022650/1500x989/38d025187e/guild-supports-your-employees.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +31,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Education
+- Workforce Development
+- Upskilling
+- Employee Benefits
+- Human Resources
+- Learning
+- Career Development
+- EdTech
 apis: []
+common:
+- type: Website
+  url: https://www.guild.com
+- type: Blog
+  url: https://guild.com/blog
+- type: Support
+  url: https://guild.com/faq
+- type: TermsOfService
+  url: https://guild.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://guild.com/privacy-policy
+- type: DomainSecurity
+  url: security/guild-education-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
