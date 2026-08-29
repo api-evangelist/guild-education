@@ -11,6 +11,17 @@ description: >-
   certificates, and new durable skills. Guild does not publish a public developer API, SDKs, or
   developer portal; this profile captures its public company and web-property surface.
 url: https://raw.githubusercontent.com/api-evangelist/guild-education/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
